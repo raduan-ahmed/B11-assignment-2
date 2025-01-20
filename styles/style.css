@@ -245,7 +245,10 @@ main{
 
 
 /* story section style */
-
+.story_title{
+    height: 800px;
+    width: 500px;
+}
 
 
 
