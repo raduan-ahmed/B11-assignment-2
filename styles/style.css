@@ -154,6 +154,7 @@ main{
 }
 .card_container{
     display: grid;
+    justify-content: space-between;
     grid-template-columns: repeat(3,1fr);
 
 }
@@ -243,14 +244,82 @@ main{
 
 }
 
+.btn_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 80px 0px 60px 0px;
+    padding-bottom: 60px;
+    border-bottom: 2px dashed rgb(116, 115, 115);  
 
-/* story section style */
-.story_title{
-    height: 800px;
-    width: 500px;
+}
+.cir_1{
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    border-radius: 50%;
+    border: none;
+    font-size:2rem;
+    font-weight: 400;
+}
+.cir_2{
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    border-radius: 50%;
+    border: none;
+    font-size:2rem;
+    font-weight: 400;
+
 }
 
 
+
+
+
+
+
+
+
+/* story section style */
+.stories_section{
+    width: 80%;
+    margin: 0 auto;
+}
+.story_titles{
+    font-size:2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0px 60px 0px;
+}
+.stories_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.stories_container_1{
+    display: flex;
+}
+.stories_container_2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.story_1{
+ 
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.story_2{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    
+}
 
 
 
