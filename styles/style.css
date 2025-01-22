@@ -381,14 +381,14 @@ main{
   
  
   
- /* .stories-heading {
+ .stories-heading {
     color: rgb(0, 0, 0);
-    font-size: 4rem;
+    font-size: 1rem;
     font-weight: 700;
   }
-   */
+  
  
-  .story_bttn{
+  .btn-story {
     width: 170px;
     height: 45px;
     margin-bottom: 15px;
