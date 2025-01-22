@@ -115,7 +115,11 @@ nav ul li a{
 header{
     max-width:1280px;
     margin: 0 auto;
-    border-bottom: 2px dashed rgb(116, 115, 115);
+    
+}
+.dashed_border{
+    border-bottom: 2.5px dashed rgb(203, 194, 194);
+    
 }
 
 .header_section{
@@ -278,8 +282,8 @@ main{
     align-items: center;
     gap: 15px;
     margin: 80px 0px 60px 0px;
-    padding-bottom: 60px;
-    border-bottom: 2px dashed rgb(116, 115, 115);  
+    padding-bottom: 10px;
+  
 
 }
 .cir_1{
@@ -323,7 +327,7 @@ main{
   .stories-heading {
     justify-content: center;
     align-items: center;
-    margin:20px 0px 50px 0px;
+    margin:40px 0px 60px 0px;
   }
   
   .stories-heading >h3 {
@@ -580,6 +584,7 @@ main{
     }
     .card_container{
         gap:30px;
+        padding:0px 20px;
     }
     .btn_circle{
         display: none;
@@ -594,9 +599,11 @@ main{
     .stories-section{
         margin: auto;
         height: 630px;
+        
       }
       .full-story {
         display: none;
+        
       }
       .short-story-container{
         grid-template-columns: repeat(2, 1fr);
@@ -638,6 +645,9 @@ main{
         border-radius: 12px;
         font-size: 16px;
         font-weight: 700;
+      }
+      .dashed_border{
+        display: none;
       }
 }
 
