@@ -46,6 +46,7 @@ marquee {
     white-space: nowrap;
     display: inline-block;
     animation: marquee 10s linear infinite;
+    text-align: center;
   }
   
 /* navigation style here */
