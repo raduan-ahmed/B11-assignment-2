@@ -113,7 +113,7 @@ nav ul li a{
 
 /* header section style here */
 header{
-    max-width:1440px;
+    max-width:1280px;
     margin: 0 auto;
     border-bottom: 2px dashed rgb(116, 115, 115);
 }
@@ -162,7 +162,7 @@ header{
 /* main section style here */
 /* card style start */
 main{
-    max-width:1440px;
+
     margin: 0 auto;
     background:url(../assets/bg.png);
 }
@@ -178,9 +178,13 @@ main{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 27px;
+    
     
 
+}
+.card_section{
+    max-width:1440px;
+    margin: 0 auto;
 }
 
 .card_title{
@@ -302,12 +306,13 @@ main{
 
 
 /* story section style */
-
-
-.stories-section{
-    height: 850px;
+.s_set_bg{
     background: url("../assets/bg.png"),
       linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+.stories-section{
+    height: 850px;
+    
   }
   
   .full-stories {
@@ -437,7 +442,7 @@ main{
   /* footer related styles */
   
   .footer {
-    max-width:1440px;
+    
     margin: 0 auto;
     height: 519px;
     background: rgb(1, 172, 253);
@@ -546,8 +551,8 @@ main{
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-        padding: 0px 20px;
-        gap: 20px;
+        padding: 20px 20px;
+        gap: 30px;
     }
     .header{
         border-bottom: none;
@@ -572,6 +577,9 @@ main{
         display: flex;
         flex-direction: column;
         margin-bottom: 60px;
+    }
+    .card_container{
+        gap:30px;
     }
     .btn_circle{
         display: none;
