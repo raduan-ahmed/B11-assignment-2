@@ -473,18 +473,18 @@ main{
     margin: 0;
   }
   
-  .kids-des {
+  .kids-description{
     width: 400px;
     height: 100px;
     color: rgb(255, 255, 255);
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   
   .footer-bar h5 {
     width: 156px;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 30px;
   }
@@ -498,14 +498,14 @@ main{
   .footer-bar a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 500;
   }
   
   .footer_in_touch h5 {
     width: 225px;
     color: rgb(255, 255, 255);
-    font-size: 1.62rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 30px;
   }
@@ -522,7 +522,7 @@ main{
 
 
 
-/* media query style */
+/* media query for mobile responsive */
 /* for header section */
 @media screen and (max-width: 576px) { 
     .logo_title {
@@ -630,4 +630,20 @@ main{
         font-size: 16px;
         font-weight: 700;
       }
+}
+
+
+/* footer section responsive */
+
+@media screen and (max-width:576px){
+
+    .footer,.footer-container{
+        display: flex;
+        flex-direction: column;
+        height: 740px;
+        gap: 40px;
+        padding:35px 0px 50px 30px;
+
+    }
+   
 }
